@@ -1,0 +1,257 @@
+body
+{
+	background-color: #87AFC7;
+	color: white;
+	font-family: 'Poppins';
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+nav
+{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 137px;
+	background-color: #5D76A9;
+}
+nav ul
+{
+	display: flex;
+	justify-content: center;
+}
+nav ul li 
+{
+	list-style: none;
+	margin: 23px;
+}
+nav ul li a
+{
+	text-decoration: none;
+	color: white;
+}
+nav ul li a:hover
+{
+	color: lavender;
+}
+.left
+{
+	font-size: 30px;
+	font: bold;
+}
+.first
+{
+	display: flex;
+	margin: 110px 0;
+	justify-content: space-around;
+	align-items: center;
+}
+.first > div
+{
+	width: 35%;
+}
+.leftsec
+{
+	font-size: 1.5rem;
+	margin: 40px 0;
+}
+button
+{
+	background-color:#5D76A9 ;
+	padding: 10px;
+	color: white;
+	font-size: 1rem;
+}
+button a
+{
+	text-decoration: none;
+	color: white;
+}
+.rightsec img
+{
+	height: 270px;
+	width: 350px;
+	margin: 20px 0px 0px 50px;
+}
+.db 
+{
+	color: #073980 ;
+}
+.am h1
+{
+	font-size:1.8rem ;
+	margin: 60px 0 30px 137px;
+	color: darkblue;
+}
+.am p
+{
+	margin: 10px 30px 30px 137px;
+}
+.edu h1
+{
+	font-size:1.8rem ;
+	margin: 60px 0 30px 137px;
+	color: darkblue;
+}
+.edu .content 
+{
+	margin: 10px 30px 30px 137px;
+}
+.edu .content
+{
+	padding: 0px 20px;
+	border-left: 3px solid darkblue;
+}
+.edu .content .box1
+{
+	position: relative;
+	padding: 20px;
+	margin-bottom: 10px;
+}
+.second .box
+{
+	background-color: white;
+	height: 2px;
+	margin: 60px 50px 180px 50px;
+	display: flex;
+}
+.second .vertical
+{
+	background-color: white;
+	height: 100px;
+	width: 2px;
+	margin: 0px 130px;
+}
+.vertical-title
+{
+	position: relative;
+	top: 55px;
+	left: -30px;
+	font-size: 20px;
+	margin-bottom: 240px;
+}
+.img-top
+{
+	width: 50px;
+	position: relative;
+	top: -50px;
+	left: -20px;
+}
+#element
+{
+	color: darkblue;
+}
+.second 
+{
+	max-width: 80vw;
+	margin: auto;
+}
+main hr 
+{
+	border: 0;
+	height: 2px;
+	background-color: lavender;
+	margin: 40px 84px;
+}
+.second h1
+{
+	font-size: 1.8rem;
+	color: darkblue;
+}
+.achiev h1
+{
+	font-size: 1.8rem;
+	color: darkblue;
+	margin: 60px 0 30px 137px;
+}
+.achiev img
+{
+	margin: 10px 0 30px 137px;
+	width: 30px;
+}
+.achiev .box2
+{
+	display: flex;
+}
+.achiev .box2 .lhs
+{
+	display: flex;
+	position: relative;
+	flex-direction: column;
+
+}
+.achiev .box2 .rhs 
+{
+	display: flex;
+	padding: 5px;
+	margin: 0px 0px 10px 0px;
+	flex-direction: column;
+}
+.achiev .box2 .rhs .rhs2
+{
+	padding: 30px;
+	position: relative;
+	left: -29px;
+}
+.achiev .box2 .rhs .rhs3
+{
+	padding: 7px;
+	position: relative;
+	left: -5px;
+}
+.contact
+{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	min-height: 10vh;
+}
+.contact h1
+{
+	font-size: 1.8rem;
+	color: darkblue;
+	margin: 30px 0 30px 137px;
+}
+.contact .container
+{
+	margin: 13px 0 30px 137px;
+	width: 40%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.contact .contact1
+{
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+}
+.container .contact1 .box3
+{
+	position: relative;
+	padding: 20px 0;
+	display: flex;
+}
+.container .contact1 .box3 .icon 
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-width: 30px;
+	height: 28px;
+}
+footer
+{
+	background-color: #5D76A9;
+	height: 200px;
+	bottom: 0;
+}
+.footer
+{
+	display: flex;
+	margin: 300px 30px;
+	padding-top: 40px;
+	justify-content: space-evenly;
+}
